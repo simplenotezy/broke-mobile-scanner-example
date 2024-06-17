@@ -1,16 +1,16 @@
 # mobile_scanner_broken_set_scan_window
 
-A new Flutter project.
+Showcasing broken mobile_scanner repo for github issue
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+### Issue 1: `updateScanWindow` broken
+- Attempt to scan something. You should see it in debug console
+- Try to change the scanWindow by using the bottom right icon
+- Now you can no longer scan anything
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Issue 2: Hot restart is not working
+- Attempt to hot restart (i.e. shift+r or pressing green refresh icon in VSCode)
+- See error: "Generic error: Called start() while already started!"
